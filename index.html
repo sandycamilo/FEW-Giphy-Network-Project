@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Giphy Search Project</title>
-        <link rel="stylesheet" type="text/css" href="styles.css">
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap css -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <!-- custom style -->
+        <link rel="stylesheet" href="styles.css">
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+        <title>Giphy Search Project</title>
     </head>
     <body>
         <!-- Nav Bar -->
-        <nav class="navbar navbar-dark bg-primary">
+        <nav class="navbar">
             <a class="navbar-brand" href="#">Giphy Search</a>
-            <a class="btn btn-light" href="#">Sign Out</a>
+            <!-- Search Form -->
+            <form id="search-form">
+                <input id="input-search" placeholder ="">
+                <button id="submit">Submit</button>
+            </form>
         </nav>
-        <!-- Search Form -->
-        <form id="search-form">
-            <input id="input-search" placeholder="Search">
-            <button type="submit">Submit</button>
-        </form>
+        
         <div id="container">
             <!-- Gifs here -->
         </div>
